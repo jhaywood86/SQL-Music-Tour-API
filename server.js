@@ -13,8 +13,9 @@ const sequelize = new Sequelize({
     storage: process.env.PG_URI,
     dialect: 'postgres',
     username: 'postgres',
-    password: 'my_password'
+    password: '2424'
   })
+  
 
   try {
     sequelize.authenticate() 
